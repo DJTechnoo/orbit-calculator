@@ -4,6 +4,7 @@
 Web application that uses a [solar system REST API](https://api.le-systeme-solaire.ne)
 to get the radii and mass of most bodies in our solar-system in order to calculate
 the orbital velocity at a specified height above the surface of each body.
+If you are interested, you can read more about [orbital velocity](https://en.wikipedia.org/wiki/Orbital_speed).
 
 # Installation
 
