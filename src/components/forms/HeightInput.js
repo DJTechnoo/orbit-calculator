@@ -4,7 +4,7 @@ import style from './HeightInput.module.scss';
 const HeightInput = ({height, setHeight}) => {
   return (
     <div className='fixed-input'>
-      <form>
+      <form onSubmit={event => {event.preventDefault();}}>
       <label>
         Height in m:
         <input className={style['input-type']}
